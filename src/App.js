@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.scss';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import NavbarComponent from './components/NavbarComponent/NavbarComponent'
+import FooterComponent from './components/FooterComponent/FooterComponent'
+import ScriptPage from './components/ScriptPage/Scripts';
+import DesignPage from './components/DesignPage/DesignComponent';
+import PhotographyPage from './components/PhotoGraphyPage/PhotographyPage';
+import SimpleReactLightbox from "simple-react-lightbox";
+import HomePage from './components/HomePage/HomePage';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <SimpleReactLightbox>
+            <Router>
+                <NavbarComponent />
+                <Switch >
+                    <Route path="/" exact component={HomePage} />
+                    <Route path="/script" exact component={ScriptPage} />
+                    <Route path="/designs" exact component={DesignPage} />
+                    <Route path="/photographs" exact component={PhotographyPage} />
+                </Switch>
+                <FooterComponent />
+            </Router>
+        </SimpleReactLightbox>
+
+    );
 }
+
 
 export default App;
