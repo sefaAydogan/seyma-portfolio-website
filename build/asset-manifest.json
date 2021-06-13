@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b337b667.chunk.css",
+    "main.js": "/static/js/main.f611ac39.chunk.js",
+    "main.js.map": "/static/js/main.f611ac39.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f04c6a54.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f04c6a54.js.map",
+    "static/js/2.ffbf2b03.chunk.js": "/static/js/2.ffbf2b03.chunk.js",
+    "static/js/2.ffbf2b03.chunk.js.map": "/static/js/2.ffbf2b03.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b337b667.chunk.css.map": "/static/css/main.b337b667.chunk.css.map",
+    "static/js/2.ffbf2b03.chunk.js.LICENSE.txt": "/static/js/2.ffbf2b03.chunk.js.LICENSE.txt",
+    "static/media/BoyWithFlowers.73699f44.jpeg": "/static/media/BoyWithFlowers.73699f44.jpeg",
+    "static/media/Construction.080f4b18.jpg": "/static/media/Construction.080f4b18.jpg",
+    "static/media/Fog.9474a90f.jpeg": "/static/media/Fog.9474a90f.jpeg",
+    "static/media/Forest.f4bdc12c.jpg": "/static/media/Forest.f4bdc12c.jpg",
+    "static/media/Forest_2.6adc25b5.jpeg": "/static/media/Forest_2.6adc25b5.jpeg",
+    "static/media/HomelessMan.3de6899f.jpeg": "/static/media/HomelessMan.3de6899f.jpeg",
+    "static/media/Nature.1c87bf04.jpeg": "/static/media/Nature.1c87bf04.jpeg",
+    "static/media/Nature_2.d7167dcd.jpeg": "/static/media/Nature_2.d7167dcd.jpeg",
+    "static/media/Nature_3.5fb849d8.jpeg": "/static/media/Nature_3.5fb849d8.jpeg",
+    "static/media/Nature_4.7b7a9c72.jpeg": "/static/media/Nature_4.7b7a9c72.jpeg",
+    "static/media/OldWomanWithVegetables.7d189555.jpeg": "/static/media/OldWomanWithVegetables.7d189555.jpeg",
+    "static/media/PaperGuy.a9266457.jpeg": "/static/media/PaperGuy.a9266457.jpeg",
+    "static/media/PaperGuys_2.75fda4ea.jpeg": "/static/media/PaperGuys_2.75fda4ea.jpeg",
+    "static/media/cesur_kopek.bbd12ce6.png": "/static/media/cesur_kopek.bbd12ce6.png",
+    "static/media/gorillaz.16e4d08a.png": "/static/media/gorillaz.16e4d08a.png",
+    "static/media/guitar_cocuk.19cbdfbe.png": "/static/media/guitar_cocuk.19cbdfbe.png",
+    "static/media/kolaj_1.c1e790fa.png": "/static/media/kolaj_1.c1e790fa.png",
+    "static/media/kolaj_2.ed66e627.png": "/static/media/kolaj_2.ed66e627.png",
+    "static/media/HomePage.scss": "/static/media/mosaic6.82f09adf.jpg",
+    "static/media/seymapp.b66037b7.png": "/static/media/seymapp.b66037b7.png",
+    "static/media/telefon_kulubesi.ee805f47.png": "/static/media/telefon_kulubesi.ee805f47.png",
+    "static/media/timsah_tipografi.dbb67f4d.png": "/static/media/timsah_tipografi.dbb67f4d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f04c6a54.js",
+    "static/js/2.ffbf2b03.chunk.js",
+    "static/css/main.b337b667.chunk.css",
+    "static/js/main.f611ac39.chunk.js"
+  ]
+}
