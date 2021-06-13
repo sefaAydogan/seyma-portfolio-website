@@ -1,64 +1,66 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
-.homePage{
-    background-color: #060c01dc;
-    padding: 2rem 0rem 0rem 0rem;
-    background: url('mosaic6.jpg');
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+.homePage {
+	background-color: #060c01dc;
+	padding: 2rem 0rem 0rem 0rem;
+	background: url("mosaic6.jpg");
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	min-height: 80vh;
 }
-.homeForm{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    z-index: 999;
-    padding: 60px 32px;
-    transform: translate(-50%,-30%);
-    background: rgba(19, 1, 1, 0.534);
-    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
-    h1{
-        color: white;
-    }
-    h2{
-        color: white;
-    }
-    h3{
-        color: white;
-        font-size: larger;
-    }
-    p{
-        color: white;
-    }
+.homeForm {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	z-index: 999;
+	padding: 60px 32px;
+	transform: translate(-50%, -30%);
+	background: rgba(19, 1, 1, 0.534);
+	box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+	h1 {
+		color: white;
+	}
+	h2 {
+		color: white;
+	}
+	h3 {
+		color: white;
+		font-size: larger;
+	}
+	p {
+		color: white;
+	}
 }
-.homePage::after{
-    position: relative;
-    content: '';
-    top: 35;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0,0,0,0.7);    
+.homePage::after {
+	position: relative;
+	content: "";
+	top: 35;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (max-width:768px) {
-    .homePage{
-        padding: 0%;
-        margin: 0;
-        img{
-            width: 200px;
-            text-align: center;
-        }
-    }
-    .homeForm{
-        top: 32%;
-        width: 95%;
-        flex-direction: column;
-        margin: 0;
-        padding: 10px;
-    }
+@media screen and (max-width: 768px) {
+	.homePage {
+		padding: 0%;
+		margin: 0;
+		img {
+			width: 200px;
+			text-align: center;
+		}
+		min-height: 120vh;
+	}
+	.homeForm {
+		top: 32%;
+		width: 95%;
+		flex-direction: column;
+		margin: 0;
+		padding: 10px;
+	}
 }

@@ -5,6 +5,8 @@ import kolaj_1 from "./Designs/kolaj_1.png";
 import kolaj_2 from "./Designs/kolaj_2.png";
 import telefon_kulubesi from "./Designs/telefon_kulubesi.png";
 import timsah_tipografi from "./Designs/timsah_tipografi.png";
+import design_1 from "./Designs/design_1.jpg";
+import design_2 from "./Designs/design_2.jpg";
 
 const charactersData = [
 	{
@@ -34,6 +36,14 @@ const charactersData = [
 	{
 		id: 7,
 		url: timsah_tipografi,
+	},
+	{
+		id: 8,
+		url: design_1,
+	},
+	{
+		id: 9,
+		url: design_2,
 	},
 ];
 export default charactersData;

@@ -8,8 +8,10 @@ function ScriptPage() {
 			<div className="scriptForm">
 				<h1 style={{ textDecoration: "underline" }}>Senaryolarım</h1>
 				<br />
+				<br />
 				<FirstScript />
 				<hr style={{ height: "2px", backgroundColor: "white" }} />
+				<br />
 				<SecondScript />
 				<hr style={{ height: "2px", backgroundColor: "white" }} />
 				<br />

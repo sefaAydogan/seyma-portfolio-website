@@ -23,14 +23,41 @@ function HomePage() {
 						<hr style={{ height: "2px", backgroundColor: "white" }} />
 					</Col>
 					<Col xs={12} sm={12}>
-						<p>
-							Lorem Ipsum is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s, when an unknown printer took a galley of
-							type and scrambled it to make a type specimen book. It has
-							survived not only five centuries, but also the leap into
-							electronic typesetting, remaining essentially unchanged. It was
-							popularised in the 1960s with the release
+						<p
+							style={{
+								fontSize: "0.9rem",
+								lineHeight: "2rem",
+							}}
+						>
+							Merhaba, ben Şeyma. İletişim tasarımı öğrencisiyim. Üniversitede
+							aldığım grafik dersleri ve kendimi geliştirmemle kendi
+							tasarımlarımı yapıyorum. Bu benim hobim ve en iyi yaptığım iş.
+							Tasarımlarımı yaparken{" "}
+							<span
+								style={{
+									fontWeight: "bold",
+									fontStyle: "italic",
+									fontSize: "larger",
+								}}
+							>
+								Adobe Illustrator
+							</span>{" "}
+							ve{" "}
+							<span
+								style={{
+									fontWeight: "bold",
+									fontStyle: "italic",
+									fontSize: "larger",
+								}}
+							>
+								Adobe Photoshop
+							</span>{" "}
+							kullanıyorum. Boş zamanlarımın çoğunda fotoğraf çekiyorum ve
+							senaryo yazmaya çalışıyorum. Çevremde gördüğüm şeylerin
+							fotoğrafını çekmeyi ve senaryolaştırmayı çok seviyorum. Kendi
+							alanımda kendimi geliştirmek için birçok farklı alanda eğitim
+							almaya çalışıyorum. Gelecekte bu alanda en iyilerden olmak
+							istiyorum.
 						</p>
 					</Col>
 				</Row>

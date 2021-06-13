@@ -33,7 +33,7 @@ const MyColumn = styled.div`
 	margin: 0 auto;
 `;
 const Title = styled.p`
-	color: #255249;
+	color: rgba(255, 255, 255, 0.9);
 	max-width: 200px;
 	text-align: center;
 	font-size: x-large;
@@ -41,7 +41,7 @@ const Title = styled.p`
 `;
 
 const Link = styled.a`
-	color: rgb(15, 89, 57);
+	color: rgba(255, 255, 255, 0.7);
 	margin-bottom: 20px;
 	font-size: 18px;
 	text-decoration: none;
@@ -65,6 +65,8 @@ function FooterComponent() {
 				<MyRow>
 					<MyColumn>
 						<Title>Sayfalar</Title>
+						<br />
+						<br />
 						<Link href="/">Hakkımda</Link>
 						<Link href="/script">Senaryolarım</Link>
 						<Link href="/designs">Tasarımlarım</Link>
@@ -72,18 +74,14 @@ function FooterComponent() {
 					</MyColumn>
 					<MyColumn>
 						<Title>Sosyal Medya Hesaplarım</Title>
-						<Link href="#">
-							<MyIcons className="fab fa-twitter" />
-							Twitter
-						</Link>
-						<Link href="#">
+						<br />
+						<Link href="https://www.instagram.com/ar.seymanur/">
 							<MyIcons className="fab fa-instagram" />
 							Instagram
 						</Link>
-						<Link href="#">
-							{" "}
-							<MyIcons className="fab fa-facebook" />
-							Facebook
+						<Link href="https://www.linkedin.com/in/şeyma-arnak-5289841a6">
+							<MyIcons className="fab fa-linkedin" />
+							LinkedIn
 						</Link>
 					</MyColumn>
 				</MyRow>

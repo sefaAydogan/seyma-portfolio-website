@@ -25,8 +25,11 @@ function SecondScript() {
 			<Modal
 				show={show}
 				onHide={handleClose}
-				backdrop="static"
-				keyboard={false}
+				scrollable="true"
+				fullscreen="md-down"
+				size="xl"
+				aria-labelledby="contained-modal-title-vcenter"
+				centered
 			>
 				<Modal.Header closeButton>
 					<Modal.Title>PROPAGANDA</Modal.Title>
