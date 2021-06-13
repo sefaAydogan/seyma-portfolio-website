@@ -1,63 +1,65 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
-.scriptPage{
-    background-color: #060c01dc;
-    padding: 2rem 0rem 0rem 0rem;
-    background: url('mosaic6.jpg');
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+.scriptPage {
+	background-color: #060c01dc;
+	padding: 2rem 0rem 0rem 0rem;
+	background: url("mosaic6.jpg");
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	min-height: 90vh;
 }
-.scriptForm{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    z-index: 999;
-    padding: 60px 32px;
-    transform: translate(-50%,-30%);
-    background: rgba(19, 1, 1, 0.534);
-    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
-    h1{
-        color: white;
-        margin-bottom: 5px;
-    }
-    h2{
-        color: white;
-    }
-    p{
-        color: white;
-    }
+.scriptForm {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	z-index: 999;
+	padding: 60px 32px;
+	transform: translate(-50%, -30%);
+	background: rgba(19, 1, 1, 0.534);
+	box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+	h1 {
+		color: white;
+		margin-bottom: 5px;
+	}
+	h2 {
+		color: white;
+	}
+	p {
+		color: white;
+	}
 }
-.scriptPage::after{
-    position: relative;
-    content: '';
-    top: 35;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0,0,0,0.7);    
+.scriptPage::after {
+	position: relative;
+	content: "";
+	top: 35;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (max-width:768px) {
-    .scriptPage{
-        padding: 0;
-        margin: 0;
-    }
-    .scriptForm{
-        top: 31%;
-        width: 90%;
-        padding: 2px 5px 0px 2px;
-        margin: 0;
-        flex-direction: column;
-        h1{
-            margin-bottom: 0;
-        }
-        h2{
-            margin: 0;
-        }
-    }
+@media screen and (max-width: 768px) {
+	.scriptPage {
+		padding: 0;
+		margin: 0;
+		min-height: 150vh;
+	}
+	.scriptForm {
+		top: 31%;
+		width: 90%;
+		padding: 1rem;
+		margin: 0;
+		flex-direction: column;
+		h1 {
+			margin-bottom: 0;
+		}
+		h2 {
+			margin: 0;
+		}
+	}
 }
